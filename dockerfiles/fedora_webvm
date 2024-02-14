@@ -1,6 +1,6 @@
-FROM fedora:39
+FROM i386/centos:
 
-RUN dnf update -y 
+RUN yum update -y 
 
 RUN useradd -m user && echo "user:password" | chpasswd
 
