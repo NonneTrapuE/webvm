@@ -11,7 +11,7 @@ on:
         type: string
         description: 'Path to the Dockerfile'
         required: true
-        default: 'dockerfiles/fedora_webvm.dockerfile'
+        default: 'dockerfiles/centos_webvm'
 
       IMAGE_SIZE:
         type: string
