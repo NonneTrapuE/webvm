@@ -1,4 +1,4 @@
-FROM i386/centos:
+FROM i386/centos:7
 
 RUN yum update -y 
 
